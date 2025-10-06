@@ -2,23 +2,24 @@
 
 ## 🎲 Duality Dice
 - Ogni tiro usa **2d12** → uno **Speranza**, uno **Paura**.
-- Somma entrambi + modificatori (carte, abilità, Esperienza) → confronta con la **CD** (Classe di Difficoltà).
+- Somma entrambi + modificatori (carte, abilità, Esperienza):
+  - è un successo se il totale è maggiore o uguale alla **CD** (Classe di Difficoltà).
 - Determina l'esito in base al dado più alto:
   - **Speranza > Paura** → tiro *con Speranza*
   - **Paura > Speranza** → tiro *con Paura*
   - **Uguali** → **Successo Critico**
 
 ### Esiti
-| Esito                         | Condizione                  | Effetti                                                        |
-| ----------------------------- | --------------------------- | -------------------------------------------------------------- |
-| 🟢 **Successo Critico**        | Dadi uguali                 | Successo automatico, +1 Speranza, rimuovi 1 Stress se presente |
-| 🟩 **Successo con Speranza**   | Tot ≥ CD & Speranza > Paura | Successo pieno, +1 Speranza                                    |
-| 🟧 **Successo con Paura**      | Tot ≥ CD & Paura > Speranza | Successo con complicazioni, GM +1 Paura                        |
-| 🔵 **Fallimento con Speranza** | Tot < CD & Speranza > Paura | Fallimento, +1 Speranza, conseguenze narrative                 |
-| 🔴 **Fallimento con Paura**    | Tot < CD & Paura > Speranza | Fallimento duro, GM +1 Paura, conseguenze narrative            |
+| Esito                          | Condizione                  | Esempio (CD 10)      | Effetti                                                        |
+| ------------------------------ | --------------------------- | -------------------- | -------------------------------------------------------------- |
+| 🟢 **Successo Critico**        | Dadi uguali                 | Speranza: 3 Paura: 3 | Successo automatico, +1 Speranza, rimuovi 1 Stress se presente |
+| 🟩 **Successo con Speranza**   | Tot ≥ CD e Speranza > Paura | Speranza: 8 Paura: 2 | Successo pieno, +1 Speranza                                    |
+| 🟧 **Successo con Paura**      | Tot ≥ CD e Paura > Speranza | Speranza: 9 Paura: 5 | Successo con complicazioni, GM +1 Paura                        |
+| 🔵 **Fallimento con Speranza** | Tot < CD e Speranza > Paura | Speranza: 6 Paura: 1 | Fallimento, +1 Speranza, conseguenze narrative                 |
+| 🔴 **Fallimento con Paura**    | Tot < CD e Paura > Speranza | Speranza: 2 Paura: 4 | Fallimento duro, GM +1 Paura, conseguenze narrative            |
 
 ### Note Pratiche
-- Il GM può assegnare **Vantaggio/Svantaggio** a discrezione narrativa (es. terzo d12 Speranza o 1d6 aggiuntivo).
+- Il GM può assegnare **Vantaggio/Svantaggio** (si aggiunge/sottrae **1d6**).
 - Max **6 Speranza** e **12 Paura**, entrambi **perdurano tra le sessioni**.
 - Il GM inizia con **1 Paura** per Giocatore.
 
